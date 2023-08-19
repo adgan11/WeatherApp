@@ -14,6 +14,7 @@
 		7FB960EC2A90A56E0059E0A8 /* Weather_App_TutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB960EB2A90A56E0059E0A8 /* Weather_App_TutTests.swift */; };
 		7FB960F62A90A56F0059E0A8 /* Weather_App_TutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB960F52A90A56F0059E0A8 /* Weather_App_TutUITests.swift */; };
 		7FB960F82A90A56F0059E0A8 /* Weather_App_TutUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB960F72A90A56F0059E0A8 /* Weather_App_TutUITestsLaunchTests.swift */; };
+		7FB961082A90A6C40059E0A8 /* Orbitron-Font.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7FB961072A90A6C40059E0A8 /* Orbitron-Font.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,8 @@
 		7FB960F12A90A56F0059E0A8 /* Weather App TutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Weather App TutUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FB960F52A90A56F0059E0A8 /* Weather_App_TutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather_App_TutUITests.swift; sourceTree = "<group>"; };
 		7FB960F72A90A56F0059E0A8 /* Weather_App_TutUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather_App_TutUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7FB961042A90A6300059E0A8 /* Weather-App-Tut-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Weather-App-Tut-Info.plist"; sourceTree = SOURCE_ROOT; };
+		7FB961072A90A6C40059E0A8 /* Orbitron-Font.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Orbitron-Font.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +77,7 @@
 		7FB960CE2A90A56D0059E0A8 = {
 			isa = PBXGroup;
 			children = (
+				7FB961062A90A6A20059E0A8 /* Fonts */,
 				7FB960D92A90A56D0059E0A8 /* Weather App Tut */,
 				7FB960EA2A90A56E0059E0A8 /* Weather App TutTests */,
 				7FB960F42A90A56F0059E0A8 /* Weather App TutUITests */,
@@ -94,6 +98,7 @@
 		7FB960D92A90A56D0059E0A8 /* Weather App Tut */ = {
 			isa = PBXGroup;
 			children = (
+				7FB961042A90A6300059E0A8 /* Weather-App-Tut-Info.plist */,
 				7FB960DA2A90A56D0059E0A8 /* Weather_App_TutApp.swift */,
 				7FB960DC2A90A56D0059E0A8 /* ContentView.swift */,
 				7FB960DE2A90A56E0059E0A8 /* Assets.xcassets */,
@@ -125,6 +130,14 @@
 				7FB960F72A90A56F0059E0A8 /* Weather_App_TutUITestsLaunchTests.swift */,
 			);
 			path = "Weather App TutUITests";
+			sourceTree = "<group>";
+		};
+		7FB961062A90A6A20059E0A8 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				7FB961072A90A6C40059E0A8 /* Orbitron-Font.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +246,7 @@
 			files = (
 				7FB960E22A90A56E0059E0A8 /* Preview Assets.xcassets in Resources */,
 				7FB960DF2A90A56E0059E0A8 /* Assets.xcassets in Resources */,
+				7FB961082A90A6C40059E0A8 /* Orbitron-Font.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +434,7 @@
 				DEVELOPMENT_TEAM = JTJDA797DZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Weather-App-Tut-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -449,6 +464,7 @@
 				DEVELOPMENT_TEAM = JTJDA797DZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Weather-App-Tut-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
